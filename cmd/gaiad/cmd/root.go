@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/gaia/app/params"
+	"github.com/tendermint/starportapp/app/params"
 
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
@@ -32,7 +32,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	gaia "github.com/cosmos/gaia/app"
+	gaia "github.com/tendermint/starportapp/app"
 )
 
 // NewRootCmd creates a new root command for simd. It is called once in the

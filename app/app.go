@@ -72,7 +72,7 @@ import (
 	upgradeclient "github.com/cosmos/cosmos-sdk/x/upgrade/client"
 	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	gaiaappparams "github.com/cosmos/gaia/app/params"
+	gaiaappparams "github.com/tendermint/starportapp/app/params"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 )
 

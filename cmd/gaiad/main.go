@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/cosmos/gaia/cmd/gaiad/cmd"
+	"github.com/tendermint/starportapp/cmd/gaiad/cmd"
 )
 
 func main() {
