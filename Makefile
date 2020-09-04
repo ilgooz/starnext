@@ -1,2 +1,2 @@
 run:
-	go run cmd/gaiad/*.go
+	go run cmd/starportapp/*.go
